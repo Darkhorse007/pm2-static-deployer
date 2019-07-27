@@ -1,0 +1,28 @@
+{
+  "name": "pm2-deployer",
+  "description": "common pm2 deployer",
+  "keywords": [
+    "dashboard",
+    "deployment"
+  ],
+  "version": "1.0.0",
+  "private": true,
+  "author": "darkhorse",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.x"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/pm2 start launch.js"
+  },
+  "dependencies": {
+    "connect-history-api-fallback": "1.6.0",
+    "express": "4.16.4",
+    "pm2": "3.2.9"
+  },
+  "devDependencies": {}
+}
